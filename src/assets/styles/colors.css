@@ -1,0 +1,18 @@
+:root {
+    --prim: #d4dfef;
+    --sec: #6792b5;
+    --tert: #faa370;
+    
+    --weak: #777777;
+
+    --neutral: #7f7f7f;
+    --neutral-weak: #aaaaaa;
+    --delete: #ff8989;
+    --delete-dark: #9b4b4b;
+    --edit: #ffc000;
+    --edit-dark: #e0a902;
+    --create: #1f8f51;
+    --create-dark: #165231;
+
+    --role-badge: #faa270;
+}

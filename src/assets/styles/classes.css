@@ -1,0 +1,60 @@
+.bg-prim {
+    background-color: var(--prim);
+}
+.bg-sec {
+    background-color: var(--sec);
+}
+.bg-tert {
+    background-color: var(--tert);
+}
+.bg-delete {
+    background-color: var(--delete);
+}
+.bg-create {
+    background-color: var(--create);
+}
+.bg-neutral {
+    background-color: var(--neutral);
+}
+.bg-role-badge {
+    background-color: var(--role-badge);
+}
+.bg-trainer-badge {
+    background-color: var(--neutral-weak);
+}
+
+
+.btn-sec {
+    background-color: var(--sec);
+    color: black;
+}
+.btn-tert {
+    background-color: var(--tert);
+    color: black;
+}
+.btn-positive {
+    background-color: var(--create);
+    color: black;
+}
+.btn-delete {
+    background-color: var(--delete);
+    color: black;
+}
+.btn-edit {
+    background-color: var(--edit);
+    color: black;
+}
+.btn-role-badge {
+    background-color: var(--role-badge);
+    color: black;
+}
+
+.listHolder {
+    width: 100%;
+    overflow-x: hidden;
+}
+@media screen and (min-width: 1200px) {
+    .listHolder {
+        width: 60%;
+    }
+}

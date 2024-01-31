@@ -1,0 +1,79 @@
+
+input[type="text"],
+input[type="mail"],
+input[type="password"],
+input[type="number"],
+input[type="datetime-local"],
+textarea {
+    outline: none;
+    border: 2px solid var(--tert);
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0);
+    transition: all .3s ease;
+}
+input[type="text"].focus_or_filled,
+input[type="mail"].focus_or_filled,
+input[type="password"].focus_or_filled {
+    background-color: var(--sec);
+}
+input[type="text"]:focus,
+input[type="mail"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="datetime-local"]:focus,
+textarea:focus {
+    background-color: var(--sec);
+}
+textarea {
+    min-height: 75px;
+    resize: none;
+}
+select {
+    outline: none;
+    width: 100%;
+    min-height: 30px;
+    border: 2px solid var(--tert);
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0);
+    transition: all .3s ease;
+}
+select:focus {
+    background-color: var(--sec);
+}
+option {
+    background-color: var(--sec);
+}
+
+
+a {
+    text-decoration: none;
+    font-family: "Raleway Reg 400";
+  }
+.dashboard_card {
+    position: sticky;
+    top: 20px;
+    width: 90%;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.dashboard_card h5 {
+    font-size: 14px;
+}
+.dashboard_card button {
+    font-size: 12px;
+    font-family: "Raleway Reg 400";
+}
+.toggleOptions .option-buttons.edit-option {
+    background-image: linear-gradient(to top, #fff -20%, var(--edit-dark), var(--edit-dark), #fff 110%);
+    box-shadow: 0 0 1px 1px #999 inset;
+}
+.toggleOptions .option-buttons.delete-option {
+    background-image: linear-gradient(to top, #fff -20%, var(--delete), var(--delete), #fff 110%);
+    box-shadow: 0 0 1px 1px #999 inset;
+}
+
+@media screen and (min-width: 1200px) {
+    .dashboard_card {
+        height: auto;
+    }
+}
